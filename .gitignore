@@ -6,3 +6,7 @@
 #
 # Pods/
 
+.DS_Store
+VoiceRecognition.xcodeproj/xcuserdata/xiaoxiao.xcuserdatad
+VoiceRecognition.xcodeproj/project.xcworkspace/
+
