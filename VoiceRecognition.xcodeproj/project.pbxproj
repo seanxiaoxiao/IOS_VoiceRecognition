@@ -74,10 +74,6 @@
 		001EB264199B30250025435C /* iconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = 001EB22B199B30250025435C /* iconvert.c */; };
 		001EB265199B30250025435C /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 001EB22D199B30250025435C /* utf8.c */; };
 		001EB26A199B32D20025435C /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 001EB269199B32D20025435C /* song.mp3 */; };
-		001EB26D199B339B0025435C /* AQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 001EB26C199B339B0025435C /* AQRecorder.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		001EB276199B33C10025435C /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001EB26F199B33C10025435C /* CADebugMacros.cpp */; };
-		001EB277199B33C10025435C /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001EB272199B33C10025435C /* CAStreamBasicDescription.cpp */; };
-		001EB278199B33C10025435C /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001EB274199B33C10025435C /* CAXException.cpp */; };
 		001EB27C199B37A40025435C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001EB27B199B37A40025435C /* AudioToolbox.framework */; };
 		001EB27E199B37DD0025435C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001EB27D199B37DD0025435C /* CoreAudio.framework */; };
 		00DE865B199C773F004A903E /* VoiceApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DE865A199C773F004A903E /* VoiceApi.m */; };
@@ -219,15 +215,6 @@
 		001EB22C199B30250025435C /* iconvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iconvert.h; sourceTree = "<group>"; };
 		001EB22D199B30250025435C /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8.c; sourceTree = "<group>"; };
 		001EB269199B32D20025435C /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
-		001EB26B199B339B0025435C /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQRecorder.h; sourceTree = "<group>"; };
-		001EB26C199B339B0025435C /* AQRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQRecorder.mm; sourceTree = "<group>"; };
-		001EB26F199B33C10025435C /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
-		001EB270199B33C10025435C /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
-		001EB271199B33C10025435C /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
-		001EB272199B33C10025435C /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
-		001EB273199B33C10025435C /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
-		001EB274199B33C10025435C /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
-		001EB275199B33C10025435C /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
 		001EB279199B375A0025435C /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		001EB27B199B37A40025435C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		001EB27D199B37DD0025435C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -287,12 +274,9 @@
 		001EB173199B2E0E0025435C /* VoiceRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				001EB26E199B33C10025435C /* PublicUtility */,
 				001EB1A4199B30250025435C /* libFLAC */,
 				001EB17C199B2E0E0025435C /* AppDelegate.h */,
 				001EB17D199B2E0E0025435C /* AppDelegate.m */,
-				001EB26B199B339B0025435C /* AQRecorder.h */,
-				001EB26C199B339B0025435C /* AQRecorder.mm */,
 				001EB17F199B2E0E0025435C /* Images.xcassets */,
 				001EB174199B2E0E0025435C /* Supporting Files */,
 				001EB19C199B2E830025435C /* ViewController.h */,
@@ -593,20 +577,6 @@
 			path = utf8;
 			sourceTree = "<group>";
 		};
-		001EB26E199B33C10025435C /* PublicUtility */ = {
-			isa = PBXGroup;
-			children = (
-				001EB26F199B33C10025435C /* CADebugMacros.cpp */,
-				001EB270199B33C10025435C /* CADebugMacros.h */,
-				001EB271199B33C10025435C /* CAMath.h */,
-				001EB272199B33C10025435C /* CAStreamBasicDescription.cpp */,
-				001EB273199B33C10025435C /* CAStreamBasicDescription.h */,
-				001EB274199B33C10025435C /* CAXException.cpp */,
-				001EB275199B33C10025435C /* CAXException.h */,
-			);
-			path = PublicUtility;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -687,13 +657,11 @@
 				001EB254199B30250025435C /* operations_shorthand_vorbiscomment.c in Sources */,
 				001EB25D199B30250025435C /* replaygain.c in Sources */,
 				001EB19F199B2E830025435C /* ViewController.mm in Sources */,
-				001EB277199B33C10025435C /* CAStreamBasicDescription.cpp in Sources */,
 				001EB24F199B30250025435C /* operations.c in Sources */,
 				001EB231199B30250025435C /* foreign_metadata.c in Sources */,
 				001EB24E199B30250025435C /* main.c in Sources */,
 				001EB240199B30250025435C /* lpc.c in Sources */,
 				001EB230199B30250025435C /* encode.c in Sources */,
-				001EB276199B33C10025435C /* CADebugMacros.cpp in Sources */,
 				001EB257199B30250025435C /* utils.c in Sources */,
 				001EB256199B30250025435C /* usage.c in Sources */,
 				001EB233199B30250025435C /* local_string_utils.c in Sources */,
@@ -702,7 +670,6 @@
 				001EB17E199B2E0E0025435C /* AppDelegate.m in Sources */,
 				001EB238199B30250025435C /* bitreader.c in Sources */,
 				001EB258199B30250025435C /* getopt.c in Sources */,
-				001EB278199B33C10025435C /* CAXException.cpp in Sources */,
 				001EB25C199B30250025435C /* picture.c in Sources */,
 				001EB261199B30250025435C /* replaygain_synthesis.c in Sources */,
 				001EB232199B30250025435C /* iffscan.c in Sources */,
@@ -725,7 +692,6 @@
 				001EB25E199B30250025435C /* seektable.c in Sources */,
 				001EB263199B30250025435C /* charset_test.c in Sources */,
 				001EB243199B30250025435C /* metadata_iterators.c in Sources */,
-				001EB26D199B339B0025435C /* AQRecorder.mm in Sources */,
 				001EB22F199B30250025435C /* decode.c in Sources */,
 				001EB252199B30250025435C /* operations_shorthand_seektable.c in Sources */,
 				001EB17A199B2E0E0025435C /* main.m in Sources */,
@@ -783,9 +749,10 @@
 				GCC_WARN_UNUSED_FUNCTION = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -819,6 +786,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
